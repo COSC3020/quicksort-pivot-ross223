@@ -21,14 +21,10 @@ Add your answer to this markdown file. [This
 page](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions)
 might help with the notation for mathematical expressions.
 
-For each of these implementations we divide our array into 4 parts. The 1st quarter contains elements that are too small for our pivot,
-and the last quarter contains elements that are too big for our pivot. The middle quarters contain elements that are good pivots.
-
 The leftmost element implementation:
 
-This implementation chooses the leftmost element for the pivot of quicksort, so there are 4 scenerios in this implementation.
-Either the pivot falls in the 2 bad spots of our array, or it falls in the 2 good spots, therefore the probablility of this 
-implementation choosing a good pivot is 50%.
+This implementation chooses the leftmost element for the pivot of quicksort, so there are 2 scenerios in this implementation.
+Either the pivot is good or it is not, which results in a probability of finding a good pivot 50%.
 
 The Median-of-Three implementation:
 

@@ -61,6 +61,10 @@ $3 \cdot 1/2 \cdot 1/2 \cdot 1/2 \cdot 1/2$ times or 3/16 times or 18.75%
 
 In scenerio 4, none of the pivots chosen are good pivots so we can ignore this scenerio as we will never get a good pivot value from it.
 
+## Sources
+
+Assel Aljazwe provided massive help in this exercise
+
 Therefore, our total probability can be obtained from adding up all the scenerios probability which equates to 68.75% chance to choose
 a good pivot.
 
